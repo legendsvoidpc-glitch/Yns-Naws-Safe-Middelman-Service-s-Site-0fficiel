@@ -41,6 +41,7 @@
     font-size:1.1rem;
     line-height:1.6;
     margin-bottom:20px;
+    word-wrap: break-word;
   }
   ul {
     text-align:left;
@@ -71,13 +72,13 @@
     border:4px solid #ffd700;
     border-radius:15px;
     box-shadow:0 0 25px rgba(255,77,77,0.6);
-    transition:0.3s ease;
+    transition: all 0.3s ease;
     text-align:center;
   }
   .btn:hover {
-    transform:scale(1.05);
-    box-shadow:0 0 35px rgba(255,153,0,0.8);
-    border-color:#ffcc00;
+    transform: scale(1.05);
+    box-shadow: 0 0 35px rgba(255,153,0,0.8);
+    border-color: #ffcc00;
   }
 </style>
 </head>
@@ -109,7 +110,6 @@
 
   <h2>🔗 Rejoins-nous :</h2>
   <p>Ping: @everyone</p>
-
   <a class="btn" href="https://discord.gg/MKRtrFRWKH" target="_blank">Rejoindre le serveur</a>
 </div>
 </body>
