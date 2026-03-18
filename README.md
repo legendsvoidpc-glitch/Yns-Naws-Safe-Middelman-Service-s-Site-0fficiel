@@ -4,81 +4,58 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>NAWS × YNS Middleman</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
   body {
-    margin:0;
-    padding:0;
-    font-family: 'Poppins', sans-serif;
-    background:#0f1115;
-    color:#eee;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    min-height:100vh;
+    font-family: Arial, sans-serif;
+    background: #1a1f28;
+    color: #eee;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
   }
   .container {
-    max-width:800px;
-    width:90%;
-    background:#1a1f28;
-    padding:40px;
-    border-radius:15px;
-    box-shadow:0 0 40px rgba(0,0,0,0.7);
-    text-align:center;
+    width: 90%;
+    max-width: 700px;
+    background: #2a2f3a;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
   }
   h1 {
-    font-size:2.5rem;
-    color:#ff4757;
-    margin-bottom:20px;
-    text-shadow:1px 1px #000;
+    color: #ff4757;
+    margin-bottom: 20px;
   }
   h2 {
-    color:#ffcc00;
-    margin-top:30px;
-    margin-bottom:15px;
+    color: #ffd700;
+    margin: 20px 0 10px 0;
   }
   p {
-    font-size:1.1rem;
-    line-height:1.6;
-    margin-bottom:20px;
-    word-wrap: break-word;
+    margin: 10px 0;
+    line-height: 1.5;
+  }
+  em {
+    font-style: italic;
   }
   ul {
-    text-align:left;
-    padding-left:20px;
+    text-align: left;
+    margin: 10px 0 20px 0;
+    padding-left: 20px;
   }
   ul li {
-    margin:10px 0;
-    font-weight:600;
-    position:relative;
-    padding-left:25px;
-  }
-  ul li::before {
-    content:"🚀";
-    position:absolute;
-    left:0;
+    margin: 5px 0;
   }
   .btn {
-    display:block;
-    width:100%;
-    max-width:300px;
-    margin:30px auto 0;
-    padding:20px 0;
-    font-size:1.3rem;
-    font-weight:700;
-    text-decoration:none;
-    color:#fff;
-    background:linear-gradient(135deg,#ff4d4d,#ff9900,#ffcc00);
-    border:4px solid #ffd700;
-    border-radius:15px;
-    box-shadow:0 0 25px rgba(255,77,77,0.6);
-    transition: all 0.3s ease;
-    text-align:center;
+    display: inline-block;
+    padding: 15px 25px;
+    margin-top: 20px;
+    background: #ff4757;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
   }
   .btn:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 35px rgba(255,153,0,0.8);
-    border-color: #ffcc00;
+    background: #e84118;
   }
 </style>
 </head>
@@ -86,8 +63,8 @@
 <div class="container">
   <h1>🔥 NAWS × YNS MIDDLEMAN 🔥</h1>
 
-  <p>Bienvenue sur Naws × Yns Middleman 🙌</p>
-  <p>Un serveur dédié au trade sécurisé, aux échanges fiables et à une vraie communauté active.</p>
+  <p><em>Bienvenue sur Naws × Yns Middleman 🙌</em></p>
+  <p><em>Un serveur dédié au trade sécurisé, aux échanges fiables et à une vraie communauté active.</em></p>
   <p>On est là pour proposer un espace simple, efficace et sans prise de tête, où chacun peut faire ses trade, PvP et autres échanges en sécurité 💬💸</p>
 
   <h2>✨ Ce qu’on te propose :</h2>
@@ -110,6 +87,7 @@
 
   <h2>🔗 Rejoins-nous :</h2>
   <p>Ping: @everyone</p>
+
   <a class="btn" href="https://discord.gg/MKRtrFRWKH" target="_blank">Rejoindre le serveur</a>
 </div>
 </body>
