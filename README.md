@@ -1,90 +1,75 @@
-<!DOCTYPE html>
-<html lang="fr">
+<!DOCTYPE html><html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NAWS × YNS Middleman</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <title>Pub Discord</title>
   <style>
     body {
       margin: 0;
-      padding: 0;
-      font-family: 'Poppins', sans-serif;
-      background: #0f1115;
-      color: #eee;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-    }
-    .container {
-      width: 90%;
-      max-width: 800px;
-      background: #1a1f28;
-      padding: 40px;
-      border-radius: 15px;
-      box-shadow: 0 0 40px rgba(0,0,0,0.7);
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #5865F2, #2C2F33);
+      color: white;
       text-align: center;
+    }
+    header {
+      padding: 50px 20px;
     }
     h1 {
-      font-size: 2.5rem;
-      margin-bottom: 20px;
-      color: #ff4757;
-      text-shadow: 1px 1px #000;
-    }
-    h2 {
-      color: #ffcc00;
-      margin-top: 30px;
-      margin-bottom: 15px;
+      font-size: 3rem;
     }
     p {
-      font-size: 1.1rem;
-      line-height: 1.6;
-      margin-bottom: 25px;
-      word-wrap: break-word;
-    }
-    ul {
-      text-align: left;
-      padding-left: 20px;
-    }
-    ul li {
-      margin: 10px 0;
-      font-weight: 600;
-      position: relative;
-      padding-left: 25px;
-    }
-    ul li::before {
-      content: "🚀";
-      position: absolute;
-      left: 0;
+      font-size: 1.2rem;
     }
     .btn {
-      display: block;
-      width: 100%;
-      max-width: 300px;
-      margin: 30px auto 0;
-      padding: 20px 0;
-      font-size: 1.3rem;
-      font-weight: 700;
+      display: inline-block;
+      margin-top: 20px;
+      padding: 15px 30px;
+      background: #7289DA;
+      color: white;
       text-decoration: none;
-      color: #fff;
-      background: linear-gradient(135deg, #ff4d4d, #ff9900, #ffcc00);
-      border: 4px solid #ffd700;
-      border-radius: 15px;
-      box-shadow: 0 0 25px rgba(255,77,77,0.6);
-      transition: all 0.3s ease;
-      text-align: center;
+      border-radius: 10px;
+      font-size: 1.2rem;
+      transition: 0.3s;
     }
     .btn:hover {
-      transform: scale(1.05);
-      box-shadow: 0 0 35px rgba(255,153,0,0.8);
-      border-color: #ffcc00;
+      background: #99AAB5;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+    .card {
+      background: rgba(255,255,255,0.1);
+      padding: 20px;
+      border-radius: 15px;
+    }
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      background: rgba(0,0,0,0.3);
     }
   </style>
 </head>
-<body>
-  <div class="container">
-    <h1>🔥 NAWS × YNS MIDDLEMAN 🔥</h1>
-
-    <p>Bienvenue sur Naws × Yns Middleman 🙌<br>
-    Un serveur dédié
+<body><header>
+  <h1>🔥 Rejoins Mon Serveur Discord 🔥</h1>
+  <p>Une communauté active, fun et pleine de surprises !</p>
+  <a href="#" class="btn">🚀 Rejoindre le Discord</a>
+</header><section class="features">
+  <div class="card">
+    <h2>🎮 Gaming</h2>
+    <p>Joue avec des membres actifs tous les jours</p>
+  </div>
+  <div class="card">
+    <h2>💬 Discussion</h2>
+    <p>Parle avec une communauté sympa</p>
+  </div>
+  <div class="card">
+    <h2>🎁 Events</h2>
+    <p>Des événements réguliers et des récompenses</p>
+  </div>
+</section><footer>
+  <p>© 2026 - Ton serveur Discord</p>
+</footer></body>
+</html>
